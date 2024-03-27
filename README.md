@@ -6,6 +6,15 @@ Questa non sarà una guida efficiente o al 100% corretta se letta da un informat
 
 In questa guida è spiegato come utilizzare *GitHub* insieme a *Visual studio Code* e sfruttanto l'interfaccia grafica del pc, ma è opportuno specificare che esistono altri modi di fare le stesse operazioni (ad esempio usando il terminale o l'applicazione *GitHub Desktop*). Questa guida si basa sui seguenti video tutorial: [Guida 1](https://www.youtube.com/watch?v=kjzp0ok38uo) che è fatto molto bene, oppure [Guida 2](https://www.youtube.com/watch?v=Ghf30bq7854) un pochino più rapida. Se si vogliono vedere i metodi *alterniativi* c'è la seguente guida [Guida alternativa](https://www.youtube.com/watch?v=v_1iqtOnUMg).
 
+## Indice
+
+- [Concetti base](#concetti-base)
+- [Cosa installare](#cosa-installare)
+- [Come clonare una repository](#come-clonare-una-repository)
+- [Lavoriamo](#lavoriamo)
+- [Nozioni aggiuntive](#nozioni-aggiuntive)
+- [Soluzioni a possibili errori](#soluzioni-a-possibili-errori)
+
 
 ### Concetti base
 
@@ -109,3 +118,27 @@ Doveroso ringraziare uno specifico tutor del corso di *Introduzione alla Fisica 
 Ovviamente non è stato detto esplicitamente, ma non sempre si conosce il proprietario della repository su cui si lavora; oppure, si trova una repository relativa ad un progetto Open Source e si vuole contribuire. In questi casi il proprietario del progetto molto probabilmente non ha abilitato tutti gli utenti di *GitHub* a modificare il file, ma si può sempre fare una **pull-request**. Vuol dire che si manda una domanda al proprietario della repository di poter fare una specifica modifica. Questo è appunto la base dei progetti Open Source. Sostanzialmente, dopo il commit al posto di fare un push si fa una pull-request ad una repository esterna. Ovviamente il proprietario non è obbligato ad accettare modifiche esterne al suo progetto.
 
 Nel caso in cui non si volesse fare una pull-request ad un progetto si possono comunque fare delle modifiche al progetto, ma al posto di condividerle si può creare un **branch**, ossia una repository parallela, le cui modifiche non intaccano in nessun modo la repository principale. Tendenzialmente questa cosa si fa per progetti molto complicati in cui non si è sicuri delle modifiche che si fanno e per evitare di *"sbagliare"* nella repository principale si creano questi branch dove si è più sicuri nel fare delle prove. Successivamente si possono fare dei **merge-pull-request** per unire i diversi branch in uno unico.
+
+## Soluzioni a possibili errori
+
+1. Se si sta lavorando su delle macro `root` non so bene il perché, ma non si riescono ad eseguire direttamente dal terminale presente in *VS Code*, ma bisogna eseguirle con il terminale esterno del pc.
+
+1. Potrebbe capitare che due componenti dello stesso gruppo modifichino una stessa repository in intervalli di tempo sovrapposti. Quindi, capita che mentre si fa un push si debba fare anche un pull delle modifiche fatte da altri. In questa situazione *VS Code* non capisce più nulla e da errore bloccando tutto. Quello che si deve fare è inserire il seguente comando nel terminale
+
+```
+git config --global pull.rebase false
+```
+
+1. Se si utilizza un Mac e si prova ad eseguire un file C++ (potrebbe capitare anche per altri linguaggi, ma io ho riscontrato il problema per questo linguaggio specifico) *VS Code* potrebbe non riuscire ad eseguirlo. Occorre aprire un terminale direttamente in *VS Code* (basta farlo nel menù in alto) ed eseguire i seguenti comandi
+
+```
+g++ -o <dare un nome al progetto> main.cpp ...
+```
+
+dove i puntini di sospensione stanno a significare che si devono mettere i nomi di tutti i file cpp che vengono richiamati nel main.cpp (i file header non devono essere messi). Il nome al progetto (i "< >" non vanno messi) serve darlo solo per dare un'indicazione a *VS Code* di cosa dovrà eseguire. Successivamente si può eseguire
+
+```
+./<nome dato al progetto>
+```
+
+che eseguirà il programma.
