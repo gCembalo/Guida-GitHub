@@ -1,6 +1,6 @@
 # Guida GitHub
 
-## Guida brutale per utilizzare GitHub ad un livello basso.
+## Guida brutale per utilizzare GitHub ad un livello *basso*.
 
 Questa non sarà una guida efficiente o al 100% corretta se letta da un informatico puro, ma è stata fatta per avere un riferimento per degli studenti di Fisica che devono fare dei lavori di programmazione in condivisione. Ad esempio dei progetti informatici o lavori di analisi dati di laboratorio. Quindi, come già detto uno studioso o anche un appassionato di informatica potrebbe trovare questa guida come sommaria o addirittura sbagliata, ma si vuole solamente fare un utilizzo **base** di *GitHub*.
 
