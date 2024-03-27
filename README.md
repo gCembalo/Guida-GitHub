@@ -37,7 +37,7 @@ Per vedere se è installata correttamente dovrebbe comparire il logo di *GitHub*
 
 Fatto ciò siamo pronti ad iniziare a programmare!!
 
-### Come si utilizzano gli strumenti
+### Come clonare una repository
 
 Per prima cosa parliamo di come si crea un progetto e come si può avere a disposizione sul proprio computer.
 
@@ -47,7 +47,9 @@ Prima abbiamo detto che una volta conosciuta la repository in cui c'è il proget
 
 > la procedura che si descrive in seguito sfrutta il terminale, ma come già detto si può fare la stessa cosa utilizzando tool diversi (GitHub Desktop).
 
-Per prima cosa occorre andare nella pagina *GitHub* della repository e cliccare sul bottone verde con la scritta **code** e copiare l'indirizzo *HTTPS* della stessa con l'apposito pulsante.
+Una buona pratica è quella di creare una cartella (directory) in cui si andranno a mettere tutti i progetti clonati.
+
+Per prima cosa occorre andare nella pagina web di *GitHub* della repository e cliccare sul bottone verde con la scritta **code** e copiare l'indirizzo *HTTPS* della stessa con l'apposito pulsante.
 
 ![clonazione 1](/Immagini_README/clonazione%201.jpg)
 
@@ -57,3 +59,16 @@ Una volta fatto occorre aprire il terminale, spostarsi (con il comando `cd`) nel
 git clone <HTTPS della repository>
 ```
 
+Ora, per controllare che sia tutto corretto basta semplicemente vedere con l'*esplora risorse* che sia comparsa una cartella con il nome della repository dentro la directory scelta per le clonazioni.
+
+### Lavoriamo
+
+Ora che abbiamo clonato la repository con il progetto di interesse sul nostro pc dobbiamo aprirlo per poterci lavorare su. Andare sul menu altro di *VS Code*, cliccare su *Apri cartella* e selezionare quella di interesse.
+
+![lavoro 1](/Immagini_README/Apertura%20Cartella-1.jpg)
+
+A questo punto si dovrebbe avere sul menù di destra tutto il contenuto clonato dalla repository di *GitHub*
+
+![lavoro 1](/Immagini_README/Apertura%20Cartella%202-1.jpg)
+
+Ora finalmente si è pronti a scrivere il codice!!
