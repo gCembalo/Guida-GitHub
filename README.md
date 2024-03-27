@@ -51,8 +51,9 @@ Per prima cosa occorre andare nella pagina *GitHub* della repository e cliccare 
 
 ![clonazione 1](/Immagini_README/clonazione%201.jpg)
 
-Una volta fatto occorre aprire il terminale, spostarsi (con il comando 'cd') nella cartella scelta per i progetti *GitHub*, ed eserguire il seguente comando:
+Una volta fatto occorre aprire il terminale, spostarsi (con il comando `cd`) nella cartella scelta per i progetti *GitHub*, ed eserguire il seguente comando:
 
 ```
 git clone <HTTPS della repository>
 ```
+
