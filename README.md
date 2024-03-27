@@ -53,6 +53,6 @@ Per prima cosa occorre andare nella pagina *GitHub* della repository e cliccare 
 
 Una volta fatto occorre aprire il terminale, spostarsi (con il comando 'cd') nella cartella scelta per i progetti *GitHub*, ed eserguire il seguente comando:
 
-'''
+```
 git clone <HTTPS della repository>
-'''
+```
