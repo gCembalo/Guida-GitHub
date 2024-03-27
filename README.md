@@ -93,6 +93,19 @@ Quindi inseriamo un messaggio di testo e premiamo su **Commit** che sostanzialme
 
 Il simbolo comparso al posto di **commit** è il simbolo del **push** che è l'operazione effettiva che *pusha* le nostre modifiche su *GitHub*. Una volta cliccato ritorna tutto vuoto e possiamo chiudere *VS Code* sereni che il nostro collega potrà vedere il codice aggiornato.
 
-Quindi chiudete *VS Code*, spegnete il pc e andate a farvi i fatti vostri per un pomeriggio. Quando sentite il vostro collega il giorno dopo però lui vi dice che non vede ancora i vostri cambiamenti e che il fit è ancora orribile. A questo punto voi potete stare sereni perché avete fatto tutto il dovuto per fornirgli il materiale corretto, ma è lui che prima di iniziare a lavorare dovrebbe aggiornare la sua versione del progetto (che ovviamente ha clonato in locale) rispetto quella presente su *GitHub*. L'operazione che manca al vostro compagno di gruppo si chiama **fetch+pull** e serve sostanzialmente ad aggiornare i file presenti sul computer all'ultima versione presente su *GitHub*. Questa operazione è ovvio farla non appena si apre *VS Code* per lavorare su un progetto *GitHub* ed è banalissima, basta solamente cliccare sul pulsante apposito in basso a sinistra
+Quindi chiudete *VS Code*, spegnete il pc e andate a farvi i fatti vostri per un pomeriggio. Quando sentite il vostro collega il giorno dopo però lui vi dice che non vede ancora i vostri cambiamenti e che il fit è ancora orribile. A questo punto voi potete stare sereni perché avete fatto tutto il dovuto per fornirgli il materiale corretto, ma è lui che prima di iniziare a lavorare dovrebbe aggiornare la sua versione del progetto (che ovviamente ha clonato in locale) rispetto quella presente su *GitHub*. L'operazione che manca al vostro compagno di gruppo si chiama **fetch+pull** e serve sostanzialmente ad aggiornare i file presenti sul computer all'ultima versione presente su *GitHub*. Questa operazione è ovvio farla non appena si apre *VS Code* per lavorare su un progetto *GitHub* ed è banalissima, basta solamente cliccare sul pulsante (la doppia freccia che ruota) apposito in basso a sinistra
 
 ![lavoro 5](/Immagini_README/Fetch-pull-1.jpg)
+
+Questo è tutto quello necessario per essere in grado di lavorare in team con altre persone con la comodità di avere un unico progetto condiviso e sincronizzato.
+
+Qui si conclude la guida base.
+
+Doveroso ringraziare uno specifico tutor del corso di *Introduzione alla Fisica Nucleare e Subnucleare* dell'Università degli studi di Torino che ha stimolato il mio gruppo di lavoro ad utilizzare *GitHub*.
+
+
+## Nozioni aggiuntive
+
+Ovviamente non è stato detto esplicitamente, ma non sempre si conosce il proprietario della repository su cui si lavora; oppure, si trova una repository relativa ad un progetto Open Source e si vuole contribuire. In questi casi il proprietario del progetto molto probabilmente non ha abilitato tutti gli utenti di *GitHub* a modificare il file, ma si può sempre fare una **pull-request**. Vuol dire che si manda una domanda al proprietario della repository di poter fare una specifica modifica. Questo è appunto la base dei progetti Open Source. Sostanzialmente, dopo il commit al posto di fare un push si fa una pull-request ad una repository esterna. Ovviamente il proprietario non è obbligato ad accettare modifiche esterne al suo progetto.
+
+Nel caso in cui non si volesse fare una pull-request ad un progetto si possono comunque fare delle modifiche al progetto, ma al posto di condividerle si può creare un **branch**, ossia una repository parallela, le cui modifiche non intaccano in nessun modo la repository principale. Tendenzialmente questa cosa si fa per progetti molto complicati in cui non si è sicuri delle modifiche che si fanno e per evitare di *"sbagliare"* nella repository principale si creano questi branch dove si è più sicuri nel fare delle prove. Successivamente si possono fare dei **merge-pull-request** per unire i diversi branch in uno unico.
