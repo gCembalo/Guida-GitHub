@@ -36,3 +36,9 @@ Per vedere se è installata correttamente dovrebbe comparire il logo di *GitHub*
 ![Download estensione VS Code](/Immagini_README/Logo%20Per%20Fare%20L’accesso%20A%20GitHub%20Su%20VS%20Code.jpg)
 
 Fatto ciò siamo pronti ad iniziare a programmare!!
+
+### Come si utilizzano gli strumenti
+
+Per prima cosa parliamo di come si crea un progetto e come si può avere a disposizione sul proprio computer.
+
+Una **repository** può essere visto come un termine altro per dire *cartella dove ci metto il mio progetto* (in questo punto esatto chiedo scusa agli informatici😅).
