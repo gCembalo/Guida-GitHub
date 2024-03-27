@@ -41,4 +41,10 @@ Fatto ciò siamo pronti ad iniziare a programmare!!
 
 Per prima cosa parliamo di come si crea un progetto e come si può avere a disposizione sul proprio computer.
 
-Una **repository** può essere visto come un termine altro per dire *cartella dove ci metto il mio progetto* (in questo punto esatto chiedo scusa agli informatici😅).
+Una **repository** può essere visto come un termine altro per dire *"cartella dove ci metto il mio progetto"* (in questo punto esatto chiedo scusa agli informatici😅). Quindi chiunque voglia utilizzare *GitHub* per un progetto condiviso deve prima creare una **repsitory** dove verranno tenuti tutti i file principali. Per creare una **repository** è relativamente semplice, basta seguire i due passaggi illustrati nel seguente video [Come creare una repository su GitHub](https://www.youtube.com/watch?v=s_EmtWEGK5E). Ovviamente una volta creata vanno controllate le impostazioni della stessa per essere sicuri che persone esterne (oltre al proprietario) possano apportare modifiche ai file contenuti nella repository.
+
+Prima abbiamo detto che una volta conosciuta la repository in cui c'è il progetto a cui dobbiamo lavorare occorre avere effettivamente il file **sul** nostro pc per poter concretamente fare qualcosa. Occorre, quindi, passsare attraverso il processo di **clonazione di una repository**.
+
+> la procedura che si descrive in seguito sfrutta il terminale, ma come già detto si può fare la stessa cosa utilizzando tool diversi (GitHub Desktop).
+
+Per prima cosa occorre andare nella pagina *GitHub* della repository e cliccare sul bottone verde con la scritta **code** e copiare l'indirizzo *HTTPS* della stessa con l'apposito pulsante.
