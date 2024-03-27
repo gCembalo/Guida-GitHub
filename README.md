@@ -83,8 +83,12 @@ Ripartiamo dall'inizio. Clonate, aprite la repository del vostro collega e fate 
 
 Se lo si apre compare la seguente situazione
 
-![lavoro 2](/Immagini_README/Commit-push%202-1.jpg)
+![lavoro 3](/Immagini_README/Commit-push%202-1.jpg)
 
 Compare l'elenco dei cambiamenti avvenuti rispetto alla versione del progetto esistente prima delle vostre modifiche. Compare il pulsante **Commit** che è la chiave di questo procedimento e in alto compare la possibilità, in realtà **obbligo** (altrimenti non esegue il comando) di mettere un messaggio di testo usato per descrivere i cambiamenti fatti, cosi da tener traccia del progresso del progetto.
 
 Quindi inseriamo un messaggio di testo e premiamo su **Commit** che sostanzialmente è un'azione che prepara il nostro progetto prima di essere mandato in Cloud. Attenzione, non abbiamo ancora sincronizzato nulla. Una volta fatto il commit ci si ritroverà nella seguente situazione
+
+![lavoro 4](/Immagini_README/Commit-push%203-1.jpg)
+
+Il simbolo comparso al posto di **commit** è il simbolo del **push** che è l'operazione effettiva che *pusha* le nostre modifiche su *GitHub*. Una volta cliccato ritorna tutto vuoto e possiamo chiudere *VS Code*.
