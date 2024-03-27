@@ -48,3 +48,9 @@ Prima abbiamo detto che una volta conosciuta la repository in cui c'è il proget
 > la procedura che si descrive in seguito sfrutta il terminale, ma come già detto si può fare la stessa cosa utilizzando tool diversi (GitHub Desktop).
 
 Per prima cosa occorre andare nella pagina *GitHub* della repository e cliccare sul bottone verde con la scritta **code** e copiare l'indirizzo *HTTPS* della stessa con l'apposito pulsante.
+
+![clonazione 1](/Immagini_README/clonazione%201.jpg)
+
+Una volta fatto occorre aprire il terminale, spostarsi (con il comando 'cd') nella cartella scelta per i progetti *GitHub*, ed eserguire il seguente comando:
+
+'''git clone <HTTPS della repository>'''
