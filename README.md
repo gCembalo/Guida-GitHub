@@ -72,3 +72,19 @@ A questo punto si dovrebbe avere sul menù di destra tutto il contenuto clonato 
 ![lavoro 1](/Immagini_README/Apertura%20Cartella%202-1.jpg)
 
 Ora finalmente si è pronti a scrivere il codice!!
+
+Immaginate di dover scrivere una macro per fare l'analisi dati di un'esperienza di laboratorio. Un vostro collega ha gia iniziato a scrivere il codice, ma ha fatto un fit indecente e voi volete fare un lavoro fatto bene. Chiedete al vostro collega di mandarvi il link della repository su *GitHub*, la clonate sul vostro pc, la aprite su *VS Code* e cominciate a modificare il programma. Scrivete un codice che vi soddisfa, eseguite un fit perfetto e volete farlo vedere al vostro collega. Gli dite di eseguire lui stesso la macro visto che *GitHub* è un servizio di Cloud e di conseguenza avete tutti i progetti **sincronizzati**. Lo sfortunato collega apre la macro, la esegue,ma non vede cambiamenti rispetto a prima che voi ci metteste mano.
+
+Quello che è saltato in questa storia non troppo inventata (per alcuni) è che non avete **sincronizzato** le vostre modifiche con il progetto principale caricato sul CLoud. Questa operazione per *GitHub* si chiama **push**.
+
+Ripartiamo dall'inizio. Clonate, aprite la repository del vostro collega e fate le modifiche che ritenete necessarie. Ora, dovete condividerle. Dopo aver fatto le modifiche dovete salvare il file, basta fare un `ctrl+s`. Una volta fatto dovrebbe uscire un numero sull'icona nel menù di sinistra.
+
+![lavoro 2](/Immagini_README/Commit-push-1.jpg)
+
+Se lo si apre compare la seguente situazione
+
+![lavoro 2](/Immagini_README/Commit-push%202-1.jpg)
+
+Compare l'elenco dei cambiamenti avvenuti rispetto alla versione del progetto esistente prima delle vostre modifiche. Compare il pulsante **Commit** che è la chiave di questo procedimento e in alto compare la possibilità, in realtà **obbligo** (altrimenti non esegue il comando) di mettere un messaggio di testo usato per descrivere i cambiamenti fatti, cosi da tener traccia del progresso del progetto.
+
+Quindi inseriamo un messaggio di testo e premiamo su **Commit** che sostanzialmente è un'azione che prepara il nostro progetto prima di essere mandato in Cloud. Attenzione, non abbiamo ancora sincronizzato nulla. Una volta fatto il commit ci si ritroverà nella seguente situazione
