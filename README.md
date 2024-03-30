@@ -2,7 +2,7 @@
 
 ## Guida brutale per utilizzare GitHub ad un livello *basso*.
 
-Questa non sarà una guida efficiente o al 100% corretta se letta da un informatico puro, ma è stata fatta per avere un riferimento per degli studenti di Fisica che devono fare dei lavori di programmazione in condivisione. Ad esempio dei progetti informatici o lavori di analisi dati di laboratorio. Quindi, come già detto uno studioso o anche un appassionato di informatica potrebbe trovare questa guida come sommaria o addirittura sbagliata, ma si vuole solamente fare un utilizzo **base** di *GitHub*.
+Questa non sarà una guida efficiente o al 100% corretta se letta da un informatico puro, ma è stata fatta per avere un riferimento per degli studenti di Fisica che devono fare dei lavori di programmazione in condivisione. Ad esempio dei progetti informatici o lavori di analisi dati di laboratorio. Quindi, come già detto uno studioso o anche un appassionato di informatica potrebbe trovare questa guida sommaria o addirittura sbagliata, ma si vuole solamente fare un utilizzo **base** di *GitHub*.
 
 In questa guida è spiegato come utilizzare *GitHub* insieme a *Visual studio Code* e sfruttanto l'interfaccia grafica del pc, ma è opportuno specificare che esistono altri modi di fare le stesse operazioni (ad esempio usando il terminale o l'applicazione *GitHub Desktop*). Questa guida si basa sui seguenti video tutorial: [Guida 1](https://www.youtube.com/watch?v=kjzp0ok38uo) che è fatto molto bene, oppure [Guida 2](https://www.youtube.com/watch?v=Ghf30bq7854) un pochino più rapida. Se si vogliono vedere i metodi *alterniativi* c'è la seguente guida [Guida alternativa](https://www.youtube.com/watch?v=v_1iqtOnUMg).
 
