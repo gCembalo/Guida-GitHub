@@ -76,7 +76,7 @@ Ora che abbiamo clonato la repository con il progetto di interesse sul nostro pc
 
 ![lavoro 1](/Immagini_README/Apertura%20Cartella-1.jpg)
 
-A questo punto si dovrebbe avere sul menù di destra tutto il contenuto clonato dalla repository di *GitHub*
+A questo punto si dovrebbe avere sul menù di sinistra tutto il contenuto clonato dalla repository di *GitHub*
 
 ![lavoro 1](/Immagini_README/Apertura%20Cartella%202-1.jpg)
 
