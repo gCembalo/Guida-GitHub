@@ -56,7 +56,7 @@ Prima abbiamo detto che una volta conosciuta la repository in cui c'è il proget
 
 > la procedura che si descrive in seguito sfrutta il terminale, ma come già detto si può fare la stessa cosa utilizzando tool diversi (GitHub Desktop).
 
-Una buona pratica è quella di creare una cartella (directory) in cui si andranno a mettere tutti i progetti clonati.
+Una buona pratica è quella di creare una cartella (directory) sul proprio computer (si potrebbe chiamare direttamente **GitHub**) in cui si andranno a mettere tutti i progetti clonati.
 
 Per prima cosa occorre andare nella pagina web di *GitHub* della repository e cliccare sul bottone verde con la scritta **code** e copiare l'indirizzo *HTTPS* della stessa con l'apposito pulsante.
 
