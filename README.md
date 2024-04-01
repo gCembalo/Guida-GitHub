@@ -110,7 +110,7 @@ Questo è tutto quello necessario per essere in grado di lavorare in team con al
 
 Qui si conclude la guida base.
 
-Doveroso ringraziare uno specifico tutor del corso di *Introduzione alla Fisica Nucleare e Subnucleare* dell'Università degli studi di Torino che ha stimolato il mio gruppo di lavoro ad utilizzare *GitHub*.
+//Doveroso ringraziare uno specifico tutor del corso di *Introduzione alla Fisica Nucleare e Subnucleare* dell'Università degli studi di Torino che ha stimolato il mio gruppo di lavoro ad utilizzare *GitHub*.
 
 
 ## Nozioni aggiuntive
