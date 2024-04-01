@@ -121,14 +121,14 @@ Nel caso in cui non si volesse fare una pull-request ad un progetto si possono c
 
 ## Soluzioni a possibili errori
 
-1. Se si sta lavorando su delle macro `root` non so bene il perché, ma non si riescono ad eseguire direttamente dal terminale presente in *VS Code*, ma bisogna eseguirle con il terminale esterno del pc.
+**1**. Se si sta lavorando su delle macro `root` non so bene il perché, ma non si riescono ad eseguire direttamente dal terminale presente in *VS Code*, ma bisogna eseguirle con il terminale esterno del pc.
 
-2. Potrebbe capitare che due componenti dello stesso gruppo modifichino una stessa repository in intervalli di tempo sovrapposti. Quindi, capita che mentre si fa un push si debba fare anche un pull delle modifiche fatte da altri. In questa situazione *VS Code* non capisce più nulla e da errore bloccando tutto. Quello che si deve fare è inserire il seguente comando nel terminale
+**2**. Potrebbe capitare che due componenti dello stesso gruppo modifichino una stessa repository in intervalli di tempo sovrapposti. Quindi, capita che mentre si fa un push si debba fare anche un pull delle modifiche fatte da altri. In questa situazione *VS Code* non capisce più nulla e da errore bloccando tutto. Quello che si deve fare è inserire il seguente comando nel terminale
 ```
 git config --global pull.rebase false
 ```
 
-3. Se si utilizza un Mac e si prova ad eseguire un file C++ (potrebbe capitare anche per altri linguaggi, ma io ho riscontrato il problema per questo linguaggio specifico) *VS Code* potrebbe non riuscire ad eseguirlo. Occorre aprire un terminale direttamente in *VS Code* (basta farlo nel menù in alto) ed eseguire i seguenti comandi
+**3**. Se si utilizza un Mac e si prova ad eseguire un file C++ (potrebbe capitare anche per altri linguaggi, ma io ho riscontrato il problema per questo linguaggio specifico) *VS Code* potrebbe non riuscire ad eseguirlo. Occorre aprire un terminale direttamente in *VS Code* (basta farlo nel menù in alto) ed eseguire i seguenti comandi
 
 ```
 g++ -o <dare un nome al progetto> main.cpp ...
