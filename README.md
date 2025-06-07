@@ -127,19 +127,19 @@ Il consiglio, banale, ma sempre utile quando si incontra un errore di cui non si
 
 1. Se si sta lavorando su delle macro `root` non so bene il perché, ma non si riescono ad eseguire direttamente dal terminale presente in *VS Code*, ma bisogna eseguirle con il terminale esterno del pc.
 
-1. Potrebbe capitare che due componenti dello stesso gruppo modifichino una stessa repository in intervalli di tempo sovrapposti. Quindi, capita che mentre si fa un push si debba fare anche un pull delle modifiche fatte da altri. In questa situazione *VS Code* non capisce più nulla e da errore bloccando tutto. Quello che si deve fare è inserire il seguente comando nel terminale
+2. Potrebbe capitare che due componenti dello stesso gruppo modifichino una stessa repository in intervalli di tempo sovrapposti. Quindi, capita che mentre si fa un push si debba fare anche un pull delle modifiche fatte da altri. In questa situazione *VS Code* non capisce più nulla e da errore bloccando tutto. Quello che si deve fare è inserire il seguente comando nel terminale
 
 ```
 git config --global pull.rebase false
 ```
 
-1. Potrebbe capitare che la dimensione dei file che si sta cercando di *pushare* sia troppo grande e quindi che sia necessario aumentare il tempo di buffer. Si può, ad esempio, aumentare il buffer a 500 MB con il comando a terminale:
+3. Potrebbe capitare che la dimensione dei file che si sta cercando di *pushare* sia troppo grande e quindi che sia necessario aumentare il tempo di buffer. Si può, ad esempio, aumentare il buffer a 500 MB con il comando a terminale:
 
 ```
 git config --global http.postBuffer 524288000
 ```
 
-1. Se si utilizza un Mac e si prova ad eseguire un file C++ (potrebbe capitare anche per altri linguaggi, ma io ho riscontrato il problema per questo linguaggio specifico) *VS Code* potrebbe non riuscire ad eseguirlo. Occorre aprire un terminale direttamente in *VS Code* (basta farlo nel menù in alto) ed eseguire i seguenti comandi
+4. Se si utilizza un Mac e si prova ad eseguire un file C++ (potrebbe capitare anche per altri linguaggi, ma io ho riscontrato il problema per questo linguaggio specifico) *VS Code* potrebbe non riuscire ad eseguirlo. Occorre aprire un terminale direttamente in *VS Code* (basta farlo nel menù in alto) ed eseguire i seguenti comandi
 
 ```
 g++ -o <dare un nome al progetto> main.cpp ...
