@@ -2,7 +2,9 @@
 
 ## Guida brutale per utilizzare GitHub ad un livello *basso*.
 
-Questa non sarà una guida efficiente o al 100% corretta se letta da un informatico puro, ma è stata fatta per avere un riferimento per degli studenti di Fisica che devono fare dei lavori di programmazione in condivisione. Ad esempio dei progetti informatici o lavori di analisi dati di laboratorio. Quindi, come già detto uno studioso o anche un appassionato di informatica potrebbe trovare questa guida sommaria o addirittura sbagliata, ma si vuole solamente fare un utilizzo **base** di *GitHub*.
+### Piccole precisazioni prima di iniziare
+
+Ho scritto questo documento molto velocemente e l'italiano utilizzato è un po' quello che è; per questo ci potrebbero essere errori. Questa non sarà una guida efficiente o al 100% corretta se letta da un informatico puro, ma è stata fatta per avere un riferimento per degli studenti di Fisica che devono fare dei lavori di programmazione in condivisione. Ad esempio dei progetti informatici o lavori di analisi dati di laboratorio. Quindi, come già detto uno studioso o anche un appassionato di informatica potrebbe trovare questa guida sommaria o addirittura sbagliata, ma si vuole solamente fare un utilizzo **base** di *GitHub*.
 
 In questa guida è spiegato come utilizzare *GitHub* insieme a *Visual studio Code* e sfruttanto l'interfaccia grafica del pc, ma è opportuno specificare che esistono altri modi di fare le stesse operazioni (ad esempio usando il terminale o l'applicazione *GitHub Desktop*). Questa guida si basa sui seguenti video tutorial: [Guida 1](https://www.youtube.com/watch?v=kjzp0ok38uo) che è fatto molto bene, oppure [Guida 2](https://www.youtube.com/watch?v=Ghf30bq7854) un pochino più rapida. Se si vogliono vedere i metodi *alterniativi* c'è la seguente guida [Guida alternativa](https://www.youtube.com/watch?v=v_1iqtOnUMg).
 
@@ -110,27 +112,33 @@ Questo è tutto quello necessario per essere in grado di lavorare in team con al
 
 Qui si conclude la guida base.
 
-Doveroso ringraziare uno specifico tutor del corso di *Introduzione alla Fisica Nucleare e Subnucleare* dell'Università degli studi di Torino che ha stimolato il mio gruppo di lavoro ad utilizzare *GitHub*.
+[comment]: <> (Doveroso ringraziare uno specifico tutor del corso di *Introduzione alla Fisica Nucleare e Subnucleare* dell'Università degli studi di Torino che ha stimolato il mio gruppo di lavoro ad utilizzare *GitHub*.)
 
 
 ## Nozioni aggiuntive
 
-Ovviamente non è stato detto esplicitamente, ma non sempre si conosce il proprietario della repository su cui si lavora; oppure, si trova una repository relativa ad un progetto Open Source e si vuole contribuire. In questi casi il proprietario del progetto molto probabilmente non ha abilitato tutti gli utenti di *GitHub* a modificare il file, ma si può sempre fare una **pull-request**. Vuol dire che si manda una domanda al proprietario della repository di poter fare una specifica modifica. Questo è appunto la base dei progetti Open Source. Sostanzialmente, dopo il commit al posto di fare un push si fa una pull-request ad una repository esterna. Ovviamente il proprietario non è obbligato ad accettare modifiche esterne al suo progetto.
+Ovviamente non è stato detto esplicitamente, ma non sempre si conosce il proprietario della repository su cui si lavora; oppure, si trova una repository relativa ad un progetto Open Source e si vuole contribuire. In questi casi il proprietario del progetto molto probabilmente non ha abilitato tutti gli utenti di *GitHub* a modificare il file, ma si può sempre fare una **pull-request**. Vuol dire che si manda una domanda al proprietario della repository per poter fare una specifica modifica. Questo è appunto la base dei progetti Open Source. Sostanzialmente, dopo il commit al posto di fare un push si fa una pull-request ad una repository esterna. Ovviamente il proprietario non è obbligato ad accettare modifiche esterne al suo progetto.
 
 Nel caso in cui non si volesse fare una pull-request ad un progetto si possono comunque fare delle modifiche al progetto, ma al posto di condividerle si può creare un **branch**, ossia una repository parallela, le cui modifiche non intaccano in nessun modo la repository principale. Tendenzialmente questa cosa si fa per progetti molto complicati in cui non si è sicuri delle modifiche che si fanno e per evitare di *"sbagliare"* nella repository principale si creano questi branch dove si è più sicuri nel fare delle prove. Successivamente si possono fare dei **merge-pull-request** per unire i diversi branch in uno unico.
 
 ## Soluzioni a possibili errori
 
+<<<<<<< HEAD
 Il consiglio, banale, ma sempre utile quando si incontra un errore di cui non si conosce la causa è quello di aprire *git log*, copiare ed incollare il messaggio di errore su *ChatGPT* e farsi guidare verso la soluzione. Se siete convinti a voler risolvere da soli ho raccolto nel seguito un paio di errori che io personalmente incontro spesso e che possono aiutarvi (forse):
 
 1. Se si sta lavorando su delle macro `root` non so bene il perché, ma non si riescono ad eseguire direttamente dal terminale presente in *VS Code*, ma bisogna eseguirle con il terminale esterno del pc.
 
 1. Potrebbe capitare che due componenti dello stesso gruppo modifichino una stessa repository in intervalli di tempo sovrapposti. Quindi, capita che mentre si fa un push si debba fare anche un pull delle modifiche fatte da altri. In questa situazione *VS Code* non capisce più nulla e da errore bloccando tutto. Quello che si deve fare è inserire il seguente comando nel terminale
+=======
+**1**. Se si sta lavorando su delle macro `root` non so bene il perché, ma non si riescono ad eseguire direttamente dal terminale presente in *VS Code*, ma bisogna eseguirle con il terminale esterno del pc.
+>>>>>>> 4f69b2515e118e173593064a4a0c98beb6c7f0cf
 
+**2**. Potrebbe capitare che due componenti dello stesso gruppo modifichino una stessa repository in intervalli di tempo sovrapposti. Quindi, capita che mentre si fa un push si debba fare anche un pull delle modifiche fatte da altri. In questa situazione *VS Code* non capisce più nulla e da errore bloccando tutto. Quello che si deve fare è inserire il seguente comando nel terminale
 ```
 git config --global pull.rebase false
 ```
 
+<<<<<<< HEAD
 1. Potrebbe capitare che la dimensione dei file che si sta cercando di *pushare* sia troppo grande e quindi che sia necessario aumentare il tempo di buffer. Si può, ad esempio, aumentare il buffer a 500 MB con il comando a terminale:
 
 ```
@@ -138,6 +146,9 @@ git config --global http.postBuffer 524288000
 ```
 
 1. Se si utilizza un Mac e si prova ad eseguire un file C++ (potrebbe capitare anche per altri linguaggi, ma io ho riscontrato il problema per questo linguaggio specifico) *VS Code* potrebbe non riuscire ad eseguirlo. Occorre aprire un terminale direttamente in *VS Code* (basta farlo nel menù in alto) ed eseguire i seguenti comandi
+=======
+**3**. Se si utilizza un Mac e si prova ad eseguire un file C++ (potrebbe capitare anche per altri linguaggi, ma io ho riscontrato il problema per questo linguaggio specifico) *VS Code* potrebbe non riuscire ad eseguirlo. Occorre aprire un terminale direttamente in *VS Code* (basta farlo nel menù in alto) ed eseguire i seguenti comandi
+>>>>>>> 4f69b2515e118e173593064a4a0c98beb6c7f0cf
 
 ```
 g++ -o <dare un nome al progetto> main.cpp ...
